@@ -1,0 +1,28 @@
+.product_container {
+    width: 100%;
+    display: flex;
+    max-width: 980px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.product_container_left_section,
+.product_container_right_section {
+    width: 50%;
+}
+
+.product_desc_category {
+    color: var(--light-gray)
+}
+
+@media screen and (max-width: 767px){
+    .product_container {
+        padding: 20px;
+        box-sizing: border-box;
+        flex-direction: column;
+    }
+    .product_container_left_section,
+    .product_container_right_section {
+        width: 100%;
+    }
+}

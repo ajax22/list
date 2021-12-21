@@ -1,0 +1,36 @@
+.product_purchase_row1, .product_purchase_row2 {
+    display: flex;
+    width: 100%;
+    font-size: var(--font17);
+    font-weight: bold;
+}
+
+.product_purchase_row1 > div, .product_purchase_row2 > div, .product_purchase_row2 > button {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 40px;
+    margin: 10px 0;
+}
+
+.product_purchase_button {
+    justify-content: center;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+}
+
+.product_purchase_quantity > span {
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 767px){
+    .product_purchase_row2 {
+        flex-direction: column;
+    }
+
+    .product_purchase_row2 > * {
+        width: 100% !important;
+    }
+}

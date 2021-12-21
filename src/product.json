@@ -1,0 +1,35 @@
+{
+    "id": 1,
+    "title": "Even Better Glow™ Light Reflecting Makeup Broad Spectrum SPF 15",
+    "category": "Makeup / Foundations",
+    "description": "Moderate-coverage foundation instantly perfects, improves evenness of skin.",
+    "noOfReviews": 102,
+    "noOfStars": 4,
+    "features": [{
+        "id": "feature-1",
+        "name": "Benefits",
+        "content": "Glow and natural radiance, SPF"
+    },{
+        "id": "feature-2",
+        "name": "Coverage",
+        "content": "Sheer to Moderate"
+    },{
+        "id": "feature-3",
+        "name": "CovFinish",
+        "content": "Radiant"
+    },{
+        "id": "feature-4",
+        "name": "Key ingredients",
+        "content": "Coriander Seed, Black Pepper, Patchouli. Moreerage"
+    }],
+    "variants": [{
+        "id": "variant-1",
+        "name": "WN 04",
+        "color": "#F6DFC8"
+    }],
+    "image": {
+        "url": "https://www.clinique.in/media/export/cms/products/1200x1500/cl_sku_6MNY25_1200x1500_0.png",
+        "alt": "product_1"
+    },
+    "price": "$29.00"
+}
